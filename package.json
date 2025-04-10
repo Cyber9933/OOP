@@ -1,0 +1,13 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "oop": "node --watch ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["OOP"],
+  "author": "Lina (https://github.com/Cyber9933)",
+  "license": "ISC",
+  "description": "(MIT)"
+}
