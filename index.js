@@ -59,6 +59,10 @@ class Dog{
             this.isStanding=true;
         }*/
     }
+    changeFurColor(newColor){
+        this.furColor=newColor;
+        return `${this.name} has ${this.furColor} fur.`;
+    }
 }
 const rex=new Dog('Rex', 'black');
 const brisius= new Dog('Brisius', 'white');
@@ -75,6 +79,9 @@ console.log(brisius.Intro());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
 console.log(brisius.birthday());
+
+console.log(rex.birthday());
+console.log(rex.birthday());
 //uodegos neturejimas
 brisius.lostTail();
 console.log(brisius);
@@ -87,9 +94,13 @@ console.log(brisius);
 
 brisius.changePose();
 console.log(brisius);
+ //kita spalva
 
+ console.log(brisius.changeFurColor('red'));
+ console.log(brisius);
+ 
 
-
+console.log(rex);
 
 
 
