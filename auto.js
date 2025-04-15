@@ -14,3 +14,4 @@ console.log(zapas.intro());
 zapas.refill(5)
 console.log(zapas);
 console.log(zapas.refill(-5));
+console.log(volvo.engineIsOn);
