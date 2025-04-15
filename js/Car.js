@@ -40,4 +40,18 @@ export class Car {
             this.tank=this.tankMax;
         }
     }
+    engineIsOn(){
+        if (this.engineIsOn){
+            return'Erroe: engine is already turned on.';
+        }
+        if (this.tank===0){
+            return 'Error: engine can not be turned on, because need some gas'
+        } this.engineIsOn=true;
+
+    }
+    engineIsoff(){
+        if(!this.engineIsOn){
+            return'Error: engine is already turned off';
+        }
+    } 
 }
