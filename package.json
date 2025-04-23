@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "gabijosZOO": "node --watch ./gabijosZOO.js",
     "gabijos": "node --watch ./gabijos.js",
     "animals": "node --watch ./animals.js",
     "auto": "node --watch ./auto.js",
