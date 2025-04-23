@@ -5,8 +5,9 @@ Animal:
         -Cat
         -Hamster
 
-    Bird
-        -Parrot
+    Bird reikes extenden su animals+ paukstis skraido ne neskraido
+    s
+        -Parrot - extra pakartos garsa
         -Hummingbird
         -Eagle
 
@@ -14,6 +15,7 @@ Animal:
         -Shark
         -Dolphin
         -Tuna
+        -Pike
 */
 
 import { Hamster } from "./js/Hamster.js";
